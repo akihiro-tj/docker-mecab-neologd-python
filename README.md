@@ -19,14 +19,14 @@ $ docker run -v $(pwd)/src:/opt/app --rm -it mecab-python /bin/bash
 ### Windows Command Prompt
 
 ~~~
-C:\...\docker-mecab-neologd-python> docker run -v %cd%/src:/opt/app --rm -it mecab-python bash
+C:\{path}\docker-mecab-neologd-python> docker run -v %cd%/src:/opt/app --rm -it mecab-python bash
 ~~~
 
 
 ### Windows PowerShell
 
 ~~~
-PS C:\...\docker-mecab-neologd-python> docker run -v $pwd/src:/opt/app --rm -it mecab-python bash
+PS C:\{path}\docker-mecab-neologd-python> docker run -v $pwd/src:/opt/app --rm -it mecab-python bash
 ~~~
 
 
